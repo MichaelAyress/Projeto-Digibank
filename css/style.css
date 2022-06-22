@@ -85,22 +85,17 @@ img {
     width: 100%;
     background: rgb(193,255,232);
     background: linear-gradient(130deg, rgba(193,255,232,1) 50%, rgba(255,255,255,1) 100%);
-}
-
-
-.capa-info {
-    max-width: 1502px;
     margin: 0 auto;
-    height: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    
+    align-items: flex-end;
 }
+
 
 .sobre {
     flex: 2 1 300px;
-    padding-left: 30px;
+    padding-left: 200px;
+  
 }
 
 
@@ -163,6 +158,8 @@ img {
     padding-top: 60px;
 }
 
+/*
+
 @media (max-width: 1350px) {
 
     .capa-img {
@@ -186,7 +183,7 @@ img {
     }
 }
 
-
+*/
 
 
 
