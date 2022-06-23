@@ -182,8 +182,9 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
 
 
 .capa-info {
-    max-width: 1502px;
+    max-width: 1506px;
     margin: 0 auto;
+<<<<<<< Updated upstream
     height: 100%;
    /* display: grid;
     grid-template-columns: 40% 60%;*/
@@ -194,16 +195,45 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
 .sobre { 
     flex: 1 1 300px;
     padding-left: 30px; 
+=======
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+}
+
+.sobre {
+    /*
+    flex: 2 1 240px; */
+    padding: 100px 0px 100px 30px;
+    display: flex;
+}
+
+.sobre-conteudo {
+    align-items: center;
+    flex: 0 0 50%;
+    max-width: 50%;
+>>>>>>> Stashed changes
 }
 
 
 .sobre h1 {
+<<<<<<< Updated upstream
     font-size: 3.5em;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: bold;
     padding: 2em 0 0em  0;
     
    
+=======
+    display: block;
+  /*  padding-bottom: 1em; */
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+>>>>>>> Stashed changes
 }
 
 .sobre span {
@@ -213,7 +243,7 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
 }
 
 .sobre p {
-    font-size: 1.25em;
+    font-size: 1.1em;
     color: #70798B;
     padding-bottom: 1em;
     padding-top: 1em;
@@ -232,11 +262,15 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
     font-weight: bold;
     font-size: 1.60em;
     padding: 15px 20px;
+<<<<<<< Updated upstream
     text-align: center;  
 }
 
 .sobre a:hover {
     
+=======
+    text-align: center;
+>>>>>>> Stashed changes
 }
 
 .btn-green {
@@ -244,28 +278,56 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
 }
 
 .capa-sub h3 {
+<<<<<<< Updated upstream
     font-size: 1.45em;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: bold;
     padding-bottom: 0em;
     padding-top: 1em;
     
+=======
+    font-size: 1.7em;
+    padding-top: 1em;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+>>>>>>> Stashed changes
 }
 
 
 .capa-sub p {
+<<<<<<< Updated upstream
     font-size: 0.92em;
     color: #575757;
     padding-bottom: 2em;
+=======
+    font-size: 1.1em;
+    color: #575757;
+    padding-top: 1em;
+    padding-bottom: 1em;
+>>>>>>> Stashed changes
     
 }
 
 
+<<<<<<< Updated upstream
 .capa-info img {
    
    
 }
 
+=======
+.capa-img {
+  /*  flex: 1 0 755px; */
+  flex: 0 0 50%;
+  max-width: 50%;
+    
+    
+}
+
+
+/*
+@media (max-width: 1350px) {
+>>>>>>> Stashed changes
 
 @media (max-width: 1430px) {
     .capa-info img {
@@ -281,11 +343,22 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
     }
 }
 
+<<<<<<< Updated upstream
 
 @media (max-width: 826px) {
     .capa-info img {
         display: none;
+=======
+*/
+
+@media (max-width: 1276px) {
+
+    * {
+        
+>>>>>>> Stashed changes
     }
+
+    
 }
 
 /* Vantagens */
