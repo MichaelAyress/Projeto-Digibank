@@ -192,8 +192,14 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
 }
 
 .sobre { 
-    flex: 1 1 300px;
+    flex: 1 1 0;
     padding-left: 30px; 
+    background: rgba(255, 0, 0, 0.13);
+}
+
+.capa-info img {
+    flex: 1 1 0;
+    background: rgba(255, 255, 0, 0.39);
 }
 
 
@@ -235,9 +241,7 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
     text-align: center;  
 }
 
-.sobre a:hover {
-    
-}
+
 
 .btn-green {
     color:  var(--cor-verde);
@@ -256,14 +260,8 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
 .capa-sub p {
     font-size: 0.92em;
     color: #575757;
-    padding-bottom: 2em;
+    padding-bottom: 126px;
     
-}
-
-
-.capa-info img {
-   
-   
 }
 
 
