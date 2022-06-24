@@ -1,22 +1,11 @@
 /* font-family: 'Roboto Mono', monospace;   -----  font-family: 'Inter', sans-serif; */
-
-:root {
-    --cor-verde-claro: #C1FFE8;
-    --cor-verde: #0CD68A;
-    --cor-cinza: #868686;
-    --cor-preto-titulo: #2D2D2D;
-    --cor-preto-card: #030314;
-   
-    
-}
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Arial',sans-serif;
     
 }
 
@@ -176,8 +165,7 @@ img {
 
 .capa {
     width: 100%;
-    background: rgb(193,255,232);
-background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1) 64%, rgba(247,255,252,1) 100%);
+    background: linear-gradient(107.31deg, #C1FFE8 -11.65%, rgba(193, 255, 232, 0) 112.04%);
 }
 
 
@@ -188,24 +176,24 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
    /* display: grid;
     grid-template-columns: 40% 60%;*/
     display: flex;
+    align-items: flex-end;
+  
    
-   
-    
-    
 }
 
 .sobre { 
-    flex: 0 2 633px;
-    padding-left: 30px; 
+    flex: 1 1 0;
+    padding: 0px 0px 100px 30px;
+    
     
 }
+
+
 
 .capa-info img {
-    flex: 1 1 600px;
-    max-width: 870px;
-    
+    flex: 0 1 0;
 }
-
+/*
 @media (max-width: 1355px) {
     .capa-info img {
         max-width: 700px;
@@ -222,13 +210,14 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
 
     
 } 
-
+*/
 
 
 .sobre h1 {
-    font-size: 3.5em;
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: bold;
+    font-size: 3.9em;
+  /*  font-family: 'Lexend Deca', sans-serif; */
+   font-family: "Internacional-Black", sans-serif;
+    
     padding: 2em 0 0em  0;
     
    
@@ -245,6 +234,7 @@ background: linear-gradient(130deg, rgba(193,255,232,1) 25%, rgba(241,255,250,1)
     color: #70798B;
     padding-bottom: 1em;
     padding-top: 1em;
+    max-width: 81%;
     
     
 }
