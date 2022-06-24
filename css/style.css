@@ -48,7 +48,7 @@ img {
 
 .menu-logo a {
     font-weight: 400;
-    font-size: 34px;
+    font-size: 2.125em;
     line-height: 49px;
     letter-spacing: -0.015em;
     color: #000000;
@@ -87,23 +87,43 @@ img {
     padding: 30px;
 }
 
+
 .menu-nav a {
     display: block;
     color: #000000;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 0.813em;
     line-height: 19px;
     letter-spacing: 0.13em;
     font-weight: bold;
     padding-bottom: 10px;
+} 
+
+.menu-nav a {
+    position: relative;
 }
 
-.menu-nav a:hover {
-    border-bottom: 1px solid var(--cor-verde);
+.nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--cor-verde);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .nav-link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
     
-
-}
-
+  }
 
 .capa {
     width: 100%;
@@ -128,6 +148,79 @@ img {
     flex: 0 1 0;
 }
 
+
+
+@media (min-width:980px) and (max-width:1385px) {
+    .sobre span { 
+        font-size: 0.9em; 
+    }
+    .menu-logo a span {
+        font-size: 0.9em;      
+    }
+    * { 
+        font-size: 16px;
+       }
+
+       .capa-info {
+        height: 800px;
+        
+    }
+
+    .sobre { 
+        padding: 0px 0px 0px 30px;  
+    }
+
+}
+
+@media (max-width:1139px) {
+     .capa-info img { 
+        width: 50%;
+     }
+}
+
+@media (min-width:591px) and (max-width:980px) {
+    .capa-info img { 
+       display: none;
+    }
+
+    .capa-info {
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre-conteudo button {
+        margin: 0 auto;
+    }
+
+
+}
+
+@media (max-width:980px) {
+    .capa-info img { 
+       display: none;
+    }
+
+
+}
+
+@media (max-width: 457px) {
+
+       *{
+        font-size: 12px;
+       }
+
+       .sobre span { 
+            font-size: 0.9em; 
+        }
+        .menu-logo a span {
+            font-size: 0.9em;      
+        }
+
+        .sobre-conteudo button {
+            margin: 0;
+        }
+    }
+
 /*
 @media (max-width: 1355px) {
     .capa-info img {
@@ -147,7 +240,7 @@ img {
 } 
 */
 
-.sobre h1 {
+.sobre .sobre-conteudo h1 {
     font-size: 3.9em; 
     font-family: "Internacional-Black", sans-serif;  
     padding: 2em 0 0em  0;  
@@ -157,6 +250,7 @@ img {
     background: var(--cor-verde);
     padding: 6px;
     color: white;
+    
 }
 
 .sobre p {
@@ -164,7 +258,7 @@ img {
     padding-top: 1em;
     max-width: 90%;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25em;
     line-height: 31px;
     letter-spacing: -0.015em;
     color: #70798B; 
@@ -190,8 +284,8 @@ img {
     align-items: center;
     justify-content: center;
     font-size: 1.60em;
-    min-width: 400px;
-    min-height: 72px;
+    width: 400px;
+    height: 72px;
    }
 
   
@@ -229,7 +323,7 @@ img {
     padding-bottom: 0em;
     padding-top: 1em;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5em;
     line-height: 35px;
     letter-spacing: -0.015em;
     color: #030314;
@@ -242,7 +336,7 @@ img {
     padding-bottom: 126px;
     font-weight: 400;
     font-size: 17px;
-    line-height: 24px;
+    line-height: 1.1em;
     color: #575757;
 
     
