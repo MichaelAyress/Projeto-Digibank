@@ -216,11 +216,19 @@ img {
             font-size: 0.9em;      
         }
 
-        .sobre-conteudo button {
-            margin: 0;
-        }
+        .sobre .sobre-conteudo button {
+            max-width: 300px;
     }
 
+    }
+
+    @media (max-width: 344px) {
+           
+        .sobre .sobre-conteudo button {
+            max-width: 230px;
+    }
+
+    }
 /*
 @media (max-width: 1355px) {
     .capa-info img {
@@ -293,7 +301,7 @@ img {
     background: var(--cor-verde);
     border-radius: 50%;
     width: 34px;
-    margin-left: 10px;
+    margin-left: 15px;
     transition: transform .3s ease-in-out;
    }
    
