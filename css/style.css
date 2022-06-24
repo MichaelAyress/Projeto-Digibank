@@ -85,7 +85,59 @@ img {
 
 .menu-nav ul li {
     padding: 30px;
+    position: relative;
 }
+
+/*--Sub-Menu-- */
+
+.menu-nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    margin: 0px;
+    
+    
+    
+}
+
+.menu-nav ul li:hover ul {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+       
+}
+
+.menu-nav ul li ul li {
+    padding: 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+    .sub-1 h3 , .sub-2 h3 {
+    color: var(--cor-cinza);
+    padding: 20px 0px 10px 20px;
+    font-size: 0.95em;
+}
+
+.menu-nav ul li ul li a {
+    padding: 0px;
+    margin: 0px;
+    color: #000000;
+    text-transform: none;
+    padding: 0px 0px 0px 25px;
+    font-size: 1em;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    font-weight: bold;
+   
+}
+
+
+
+/* --------*/
 
 
 .menu-nav a {
@@ -102,6 +154,8 @@ img {
 .menu-nav a {
     position: relative;
 }
+
+
 
 .nav-link:before {
     content: "";
@@ -247,6 +301,9 @@ img {
     
 } 
 */
+
+
+
 
 .sobre .sobre-conteudo h1 {
     font-size: 3.9em; 
