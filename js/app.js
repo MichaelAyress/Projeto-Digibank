@@ -1,3 +1,5 @@
+$(document).ready(() => { 
+
 $("i").click(function () {
     $("ul").toggleClass("open");
   });
@@ -5,4 +7,7 @@ $("i").click(function () {
 
 $("#menu-servico").click(function () {
   $(".menu-2").toggleClass("menu-2-open");
+})
+
+
 })

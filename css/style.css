@@ -581,15 +581,21 @@ img {
 }
 
 .vantagens-titulo h3 {
-    font-size: 1.25em;
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--cor-verde);
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 29px;
+    /* identical to box height */
+    letter-spacing: 0.4em;
 }
 
 .vantagens-titulo h2 {
-    font-size: 2em;
     font-weight: 700;
+    font-size: 3.15em;
+    line-height: 64px;
+    color: #000000;
 }
 
 .lista-cards {
@@ -611,7 +617,6 @@ img {
     padding: 20px;
     margin: 20px;
     max-height: 264px;
-    cursor: pointer;
     max-width: 264px;
     
 }
@@ -620,9 +625,14 @@ img {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.20);
 }
 
+
+
 .cards p {
-    font-size: 1.25em;
     padding: 30px 0px 30px 10px;
+    font-weight: 600;
+    font-size: 1.35em;
+    line-height: 31px;
+    color: #030314a8;
 }
 
 .cards img {
@@ -633,6 +643,11 @@ img {
     padding: 30px 0px 0px 10px;
     color: var(--cor-verde);
 }
+
+.cards a:hover {
+    color:#7dffcd;
+}
+
 
 /* noticia */
 .bg-noticia {
@@ -687,9 +702,7 @@ flex: 0 0 30%;
 }
 
 @media (max-width: 1600px) {
-    .noticia-conteudo {
-        display: none;
-    }
+   
 }
 
 
