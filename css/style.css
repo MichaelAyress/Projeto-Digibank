@@ -85,7 +85,68 @@ img {
 
 .menu-nav ul li {
     padding: 30px;
+    position: relative;
 }
+
+/*--Sub-Menu-- */
+.menu-nav li .menu-1{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu-nav ul li:hover > .menu-1 {
+    display: flex;
+    visibility: visible;
+    transition: all 0.5s ease 0.1s;
+    box-shadow: rgb(17 17 17 / 10%) 0px 1px 1px;
+    top: 100%;
+    transform: translateY(-2%);
+    border-radius: 10px;  
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    width: 300px;
+    height: 400px;
+}
+
+
+.menu-nav li .menu-1 li {
+    
+    padding: 10px 10px 0px 10px;
+    
+}
+
+.menu-1 li p {
+    color: var(--cor-verde);
+    font-size: 0.95em;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+.menu-1  li a {
+    margin-bottom: 2px;
+    color: var(--cor-cinza);
+    text-transform: none;
+    font-size: 1em;
+    line-height: 19px;
+    letter-spacing: 0.13em;
+    font-weight: bold;  
+}
+
+.new-servico::after {
+         content: " novo";
+         background-color: var(--cor-verde-claro);
+         font-size: 0.80em;
+         margin-left: 10px;
+         border-radius: 10px;
+         padding: 5px;
+         color: #262626;
+}
+
+/* --------*/
+
 
 
 .menu-nav a {
@@ -102,6 +163,8 @@ img {
 .menu-nav a {
     position: relative;
 }
+
+
 
 .nav-link:before {
     content: "";
@@ -247,6 +310,9 @@ img {
     
 } 
 */
+
+
+
 
 .sobre .sobre-conteudo h1 {
     font-size: 3.9em; 
