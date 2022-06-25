@@ -105,7 +105,7 @@ img {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    background: white;
+    background: rgba(255, 255, 255, 0.904);
     width: 300px;
     height: 400px;
 }
