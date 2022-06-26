@@ -50,16 +50,12 @@ function animeScroll() {
   target.forEach(function(element) {
     if((windowTop) > element.offsetTop) {
       element.classList.add(animationTextClass);
-    } else {
-      element.classList.remove(animationTextClass);
-    }
+    } 
   })
   targetTwo.forEach(function(elementp) {
     if((windowTop) > elementp.offsetTop) {
       elementp.classList.add(animationParagrafoClass);
-    } else {
-      elementp.classList.remove(animationParagrafoClass);
-    }
+    } 
   })
 }
 
