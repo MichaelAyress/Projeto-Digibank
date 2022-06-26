@@ -40,15 +40,25 @@ const debounce = function(func, wait, immediate) {
 };
 
 const target = document.querySelectorAll('[data-title]');
-const animationClass = 'animate';
+const targetTwo = document.querySelectorAll('[data-p]');
+const animationTextClass = 'animateText';
+const animationParagrafoClass = 'animateP'
+
 
 function animeScroll() {
   const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
   target.forEach(function(element) {
     if((windowTop) > element.offsetTop) {
-      element.classList.add(animationClass);
+      element.classList.add(animationTextClass);
     } else {
-      element.classList.remove(animationClass);
+      element.classList.remove(animationTextClass);
+    }
+  })
+  targetTwo.forEach(function(elementp) {
+    if((windowTop) > elementp.offsetTop) {
+      elementp.classList.add(animationParagrafoClass);
+    } else {
+      elementp.classList.remove(animationParagrafoClass);
     }
   })
 }
