@@ -9,6 +9,26 @@ $("#menu-servico").click(function () {
   $(".menu-2").toggleClass("menu-2-open");
 })
 
+/*$(".cards").hover(
+  e => $(e.target).toggleClass("img-vibrate")
+)*/
+
+$(".vibrate").hover(function () {
+  $(".img-card").toggleClass("img-vibrate")
+})
+
+$(".vibrate1").hover(function () {
+  $(".img-card1").toggleClass("img-vibrate")
+})
+
+$(".vibrate2").hover(function () {
+  $(".img-card2").toggleClass("img-vibrate")
+})
+
+$(".vibrate3").hover(function () {
+  $(".img-card3").toggleClass("img-vibrate")
+})
+
 })
 
 
