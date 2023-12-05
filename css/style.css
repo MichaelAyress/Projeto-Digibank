@@ -1066,9 +1066,6 @@ img {
     }
 }
 
-.has-shown {
-    animation: has-shown 2s cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards;
-}
 /*
 
 [data-title="bottom"] {
